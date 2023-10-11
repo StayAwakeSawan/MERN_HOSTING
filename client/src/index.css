@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .input{
+    @apply p-3 py-2 border border-cyan-500 rounded-lg outline-cyan-600;
+  }
+
+  .primary-btn{
+    @apply py-1 px-2 bg-cyan-500 rounded-md;
+  }
+
+}
